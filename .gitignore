@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets (belt-and-suspenders)
+*.env
+.env*
+secrets.yaml
+secrets.json
+
+# Generated analysis outputs
+results/
+reports/
+validation_out/
+figures/
+outputs/
+output/
+*.rds
+*.Rds
+*.h5ad
+*.h5
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.jsonl
+*.log
+*.part
+*.pkl
+*.pickle

@@ -1,0 +1,30 @@
+organism,tissue,assay,cv_median,cv_low,cv_high,source,note
+Human,PBMC,bulk_rnaseq,0.40,0.30,0.50,Schurch 2016,Peripheral blood mononuclear cells
+Human,Brain,bulk_rnaseq,0.35,0.25,0.45,GTEx,Post-mortem cortical tissue
+Human,Liver,bulk_rnaseq,0.38,0.28,0.48,GTEx,Mixed pathology samples
+Human,Skeletal muscle,bulk_rnaseq,0.42,0.32,0.52,GTEx,
+Human,Tumor (mixed),bulk_rnaseq,0.45,0.35,0.60,TCGA,Inter-patient heterogeneity dominates
+Mouse,Brain,bulk_rnaseq,0.25,0.20,0.35,Vieth 2017,Inbred strain
+Mouse,Liver,bulk_rnaseq,0.28,0.22,0.38,Conesa 2016,Inbred strain
+Mouse,Spleen,bulk_rnaseq,0.30,0.24,0.40,Literature average,Immune organ
+Cell line,HeLa,bulk_rnaseq,0.15,0.10,0.20,Hart 2013,Low biological variability
+Cell line,HEK293T,bulk_rnaseq,0.12,0.08,0.18,Hart 2013,Highly controlled conditions
+Cell line,iPSC,bulk_rnaseq,0.20,0.15,0.28,Literature average,Induced pluripotent stem cells
+Yeast,S. cerevisiae,bulk_rnaseq,0.10,0.05,0.15,Schurch 2016,Highly controlled model
+Drosophila,Adult whole body,bulk_rnaseq,0.22,0.18,0.30,pasilla,Inbred strain
+C. elegans,Mixed stage,bulk_rnaseq,0.25,0.18,0.35,Literature average,Synchronized cultures lower
+Human,PBMC,scrnaseq,0.80,0.60,1.20,Vieth 2017,High cell-to-cell variability
+Human,Tumor,scrnaseq,0.90,0.70,1.50,Literature average,Very heterogeneous
+Mouse,Brain,scrnaseq,0.75,0.55,1.00,Vieth 2017,Neuronal diversity
+Mouse,Embryo,scrnaseq,0.85,0.65,1.20,Literature average,Developmental stages
+Human,PBMC,atacseq,0.30,0.20,0.40,ENCODE,Open chromatin
+Human,Tumor,atacseq,0.35,0.25,0.50,ENCODE,Epigenetic heterogeneity
+Mouse,Liver,atacseq,0.25,0.18,0.35,ENCODE,Inbred strain
+Cell line,GM12878,atacseq,0.15,0.10,0.22,ENCODE,B-lymphoblast
+Human,Various,chipseq_tf,0.40,0.30,0.60,ENCODE,Transcription factors (narrow peaks)
+Human,Various,chipseq_histone,0.30,0.22,0.45,ENCODE,Histone modifications (broad peaks)
+Human,Plasma,proteomics_tmt,0.35,0.25,0.50,Literature average,Targeted multiplexed
+Human,Tissue (mixed),proteomics_lfq,0.45,0.35,0.65,Literature average,Label-free more variable
+Cell line,HeLa,proteomics,0.20,0.15,0.30,Literature average,Controlled conditions
+Human,Blood,methylation_array,0.25,0.18,0.38,Literature average,450K and EPIC arrays
+Human,Tumor,methylation_array,0.35,0.25,0.50,TCGA,Inter-tumor variability
