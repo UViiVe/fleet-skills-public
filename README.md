@@ -1,6 +1,6 @@
 # Fleet Skills Public Library
 
-A curated collection of **35** open-source agentic-science skills for literature review, bioinformatics, statistics, reporting, and scientific quality control.
+A curated collection of **36** open-source agentic-science skills for literature review, bioinformatics, statistics, reporting, and scientific quality control.
 
 Most repository content is MIT licensed. Some skills rely on third-party tools with their own licenses and citation requirements; see `NOTICE.md` and each skill's references before redistributing bundled outputs or dependencies.
 
@@ -19,6 +19,12 @@ Skills follow the [SKILLSLIB schema](skill-creator/) for consistency and discove
 ---
 
 ## Skills in This Library
+
+### Regulatory Genomics
+
+| Skill | Description |
+|---|---|
+| [alphagenome2](alphagenome2/) | Bring-your-own-key AlphaGenome 2 noncommercial research workflow: condition metadata, one bounded reference prediction, and explicit privacy/interpretation gates. |
 
 ### Methodology
 
